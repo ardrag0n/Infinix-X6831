@@ -15,7 +15,7 @@ $(call inherit-product, vendor/omni/config/common.mk)
 $(call inherit-product, device/infinix/Infinix-X6831/device.mk)
 
 PRODUCT_DEVICE := X6831
-PRODUCT_NAME := twrp_Infinix-X6831
+PRODUCT_NAME := twrp_X6831
 PRODUCT_BRAND := Infinix
 PRODUCT_MODEL := Infinix X6831
 PRODUCT_MANUFACTURER := infinix
