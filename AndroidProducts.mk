@@ -11,4 +11,4 @@ PRODUCT_MAKEFILES := \
 COMMON_LUNCH_CHOICES := \
     twrp_X6831-user \
     twrp_X6831-userdebug \
-    twrp_-X6831-eng
+    twrp_X6831-eng
