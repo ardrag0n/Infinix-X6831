@@ -17,7 +17,7 @@ $(call inherit-product, device/infinix/Infinix-X6831/device.mk)
 PRODUCT_DEVICE := X6831
 PRODUCT_NAME := twrp_X6831
 PRODUCT_BRAND := Infinix
-PRODUCT_MODEL := Infinix X6831
+PRODUCT_MODEL := X6831
 PRODUCT_MANUFACTURER := infinix
 
 PRODUCT_GMS_CLIENTID_BASE := android-infinix
