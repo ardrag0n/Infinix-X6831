@@ -12,7 +12,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base.mk)
 $(call inherit-product, vendor/twrp/config/common.mk)
 
 # Inherit from Infinix-X6831 device
-$(call inherit-product, device/infinix/Infinix-X6831/device.mk)
+$(call inherit-product, device/infinix/X6831/device.mk)
 
 PRODUCT_DEVICE := X6831
 PRODUCT_NAME := twrp_X6831
