@@ -23,6 +23,7 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_PACKAGES += \
     bootctrl
+    android.hardware.fastboot@1.0-impl-mock
 
 # PRODUCT_STATIC_BOOT_CONTROL_HAL := \
 #     bootctrl.mt6768 \
