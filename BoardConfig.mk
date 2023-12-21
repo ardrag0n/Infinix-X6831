@@ -116,9 +116,9 @@ TW_INCLUDE_REPACKTOOLS := true
 
 
 BOARD_HAS_NO_REAL_SDCARD := true
-TW_NO_USB_STORAGE := true
+#TW_NO_USB_STORAGE := true
 # TW_EXCLUDE_ENCRYPTED_BACKUPS := true (Excluding this causes twrp build to fail)
-TW_EXCLUDE_MTP := true
+#TW_EXCLUDE_MTP := true
 TW_HAS_NO_RECOVERY_PARTITION := true
 # Debug
 #TWRP_INCLUDE_LOGCAT := true
