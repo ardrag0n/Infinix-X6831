@@ -11,7 +11,7 @@ DEVICE_PATH := device/infinix/X6831
 ALLOW_MISSING_DEPENDENCIES := true
 
 # A/B
-#AB_OTA_UPDATER := true
+AB_OTA_UPDATER := true
 # AB_OTA_PARTITIONS += \
 #     system \
 #     vendor \
