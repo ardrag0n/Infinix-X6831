@@ -49,10 +49,10 @@ PRODUCT_TARGET_VNDK_VERSION := 31
 PRODUCT_SHIPPING_API_LEVEL := 30
 
 # Health HAL
-# PRODUCT_PACKAGES += \
-#     android.hardware.health@2.1-impl \
-#     android.hardware.health@2.1-service \
-#     libhealthd.$(PRODUCT_PLATFORM)
+ PRODUCT_PACKAGES += \
+     android.hardware.health@2.1-impl \
+     android.hardware.health@2.1-service \
+     libhealthd.$(PRODUCT_PLATFORM)
 
 # Boot Control HAL
 PRODUCT_PACKAGES += \
@@ -82,5 +82,5 @@ PRODUCT_PACKAGES += \
     update_engine_sideload
 
 # OEM otacerts
-#PRODUCT_EXTRA_RECOVERY_KEYS += \
-#  $(LOCAL_PATH)/security/infinix
+PRODUCT_EXTRA_RECOVERY_KEYS += \
+  $(LOCAL_PATH)/security/infinix
